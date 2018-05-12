@@ -12,7 +12,8 @@ body {
   line-height: 1.6;
   font-family: "Lato", sans-serif;
   background-color: #FCFFFF;
-  color: #53575A; }
+  color: #53575A;
+  padding-bottom: 32px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
@@ -85,7 +86,8 @@ body {
   line-height: 1.6;
   font-family: "Lato", sans-serif;
   background-color: #FCFFFF;
-  color: #53575A; }
+  color: #53575A;
+  padding-bottom: 32px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
