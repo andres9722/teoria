@@ -155,6 +155,19 @@ input, textarea {
 .teoria__title {
   padding: 8px 0; }
 
+.teoria__subtitle {
+  color: #006DC6;
+  margin-top: 16px;
+  padding: 8px;
+  border-bottom: 3px solid rgba(0, 109, 198, 0.1);
+  text-align: center;
+  text-transform: uppercase; }
+
+.teoria__info {
+  margin-top: 16px;
+  padding: 8px;
+  border-bottom: 3px solid #F5F5F5; }
+
 .teoria__input {
   border: 3px solid #F5F5F5;
   padding: 8px;
