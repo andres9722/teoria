@@ -253,6 +253,14 @@ input, textarea {
   grid-template-columns: repeat(2, 1fr);
   gap: 32px; }
 
+.teoria__text {
+  margin-top: 16px;
+  padding: 8px;
+  border: 3px solid #F5F5F5;
+  background: #fff; }
+  .teoria__text:nth-child(1) {
+    margin-top: 46px; }
+
 .teoria__title {
   padding: 8px 0; }
 
@@ -275,13 +283,6 @@ input, textarea {
   border-radius: 5px;
   font-family: "Poppins", sans-serif;
   margin-bottom: 16px; }
-
-.teoria__text {
-  margin-top: 16px;
-  padding: 8px;
-  border: 3px solid #F5F5F5; }
-  .teoria__text:nth-child(1) {
-    margin-top: 46px; }
 
 .button__reset {
   position: fixed;
@@ -323,8 +324,12 @@ input, textarea {
     border-right: 3px solid #F5F5F5; }
     .table th:last-child {
       border: none; }
-  .table tr:nth-child(even) {
-    background: rgba(0, 109, 198, 0.02); }
+  .table__row:nth-child(even) {
+    background: rgba(0, 109, 198, 0.025); }
+  .table__item {
+    margin-top: 16px;
+    padding: 8px;
+    border: 3px solid #F5F5F5; }
   .table td {
     text-align: center;
     padding: 4px; }
