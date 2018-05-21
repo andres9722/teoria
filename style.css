@@ -69,7 +69,11 @@ input, textarea {
   height: 70px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around; }
+  justify-content: space-around;
+  display: none; }
+  @media screen and (min-width: 1024px) {
+    .group {
+      display: block; } }
   .group p {
     font-size: 12px; }
 
@@ -282,7 +286,11 @@ input, textarea {
   height: 70px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around; }
+  justify-content: space-around;
+  display: none; }
+  @media screen and (min-width: 1024px) {
+    .group {
+      display: block; } }
   .group p {
     font-size: 12px; }
 
@@ -522,7 +530,11 @@ input, textarea {
   height: 70px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around; }
+  justify-content: space-around;
+  display: none; }
+  @media screen and (min-width: 1024px) {
+    .group {
+      display: block; } }
   .group p {
     font-size: 12px; }
 
@@ -665,41 +677,46 @@ input, textarea {
     -webkit-transform: scale(1);
     transform: scale(1); } }
 
-.teoria__container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 32px; }
+html {
+  padding: 8px; }
+  @media screen and (min-width: 1024px) {
+    html {
+      padding: 0; } }
 
-.teoria__text {
-  margin-top: 16px;
-  padding: 8px;
-  border: 3px solid #F5F5F5;
-  background: #fff; }
-  .teoria__text:nth-child(1) {
-    margin-top: 46px; }
-
-.teoria__title {
-  padding: 8px 0; }
-
-.teoria__subtitle {
-  color: #006DC6;
-  margin-top: 16px;
-  padding: 8px;
-  border-bottom: 3px solid rgba(0, 109, 198, 0.1);
-  text-align: center;
-  text-transform: uppercase; }
-
-.teoria__info {
-  margin-top: 16px;
-  padding: 8px;
-  border-bottom: 3px solid #F5F5F5; }
-
-.teoria__input {
-  border: 3px solid #F5F5F5;
-  padding: 8px;
-  border-radius: 5px;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 16px; }
+.teoria {
+  display: flex; }
+  .teoria__container {
+    display: grid; }
+    @media screen and (min-width: 1024px) {
+      .teoria__container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px; } }
+  .teoria__text {
+    margin-top: 16px;
+    padding: 8px;
+    border: 3px solid #F5F5F5;
+    background: #fff; }
+    .teoria__text:nth-child(1) {
+      margin-top: 46px; }
+  .teoria__title {
+    padding: 8px 0; }
+  .teoria__subtitle {
+    color: #006DC6;
+    margin-top: 16px;
+    padding: 8px;
+    border-bottom: 3px solid rgba(0, 109, 198, 0.1);
+    text-align: center;
+    text-transform: uppercase; }
+  .teoria__info {
+    margin-top: 16px;
+    padding: 8px;
+    border-bottom: 3px solid #F5F5F5; }
+  .teoria__input {
+    border: 3px solid #F5F5F5;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 16px; }
 
 .button__reset {
   position: fixed;
