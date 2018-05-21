@@ -58,6 +58,8 @@ input, textarea {
   box-shadow: 0 3px #F5F5F5;
   margin-bottom: 16px;
   position: relative; }
+  .header.u-offline {
+    background: #F5F5F5; }
   .header__title {
     text-transform: uppercase;
     font-family: "Lato", sans-serif; }
@@ -275,6 +277,8 @@ input, textarea {
   box-shadow: 0 3px #F5F5F5;
   margin-bottom: 16px;
   position: relative; }
+  .header.u-offline {
+    background: #F5F5F5; }
   .header__title {
     text-transform: uppercase;
     font-family: "Lato", sans-serif; }
@@ -519,6 +523,8 @@ input, textarea {
   box-shadow: 0 3px #F5F5F5;
   margin-bottom: 16px;
   position: relative; }
+  .header.u-offline {
+    background: #F5F5F5; }
   .header__title {
     text-transform: uppercase;
     font-family: "Lato", sans-serif; }
